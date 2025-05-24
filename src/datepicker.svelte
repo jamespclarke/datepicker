@@ -383,7 +383,7 @@
       start: `${startDateYear}-${month >= 10 ? month : `0${month}`}-${initialDayOffMonth}`,
       end: `${startDateYear}-${month >= 10 ? month : `0${month}`}-${lastDayOfMonth}`
     };
-
+    /*
     if (isMultipane) {
       month += 1;
 
@@ -394,7 +394,7 @@
       currentPeriod.end = `${endDateYear}-${month >= 10 ? month : `0${month}`}-${lastDayOfMonth}`;
       current = new Date(endDateYear, endDateMonth);
     }
-
+    */
     onNavigationChange({
       direction,
       type,
