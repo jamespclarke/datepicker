@@ -50,7 +50,8 @@
     "format": "prettier --write \"src/**/*.{test.js,js,ts,json,svelte}\"",
     "test": "vitest --run --coverage",
     "test:watch": "vitest",
-    "test:coverage": "vitest --run --coverage && open ./coverage/index.html"
+    "test:coverage": "vitest --run --coverage && open ./coverage/index.html",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@sveltejs/package": "^2.2.4",
