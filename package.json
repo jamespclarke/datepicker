@@ -41,7 +41,7 @@
   ],
   "scripts": {
     "start": "vite & npm --prefix ./docs install && npm --prefix ./docs run dev",
-    "build": "svelte-package --input ./src && pnpm lint:package",
+    "build": "rollup -c",
     "build:docs": "npm --prefix ./docs run build",
     "deploy:docs": "pnpm build:docs && npx gh-pages -d docs/build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
